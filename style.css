@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#firstpage{
+    height: 100vh;
+    width: 100vw;
+    background-color: #7496df;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    height: 60px;
+    border-bottom: 4px solid black;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+.lside p{
+    margin-left: 20px;
+    color: #257eaf;
+    font-size: 34.6666px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.rside a{
+    text-decoration: none;
+    color:#257eaf;
+    color: #257eaf;
+    font-size: 32px;
+    font-family: sans-serif;
+    margin-right: 20px;
+    font-weight: 600;
+}
+#lastpage{
+    padding-top: 80px;
+    height: 100vh;
+    width: 100vw;
+    background-color: #7496df;
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.para p{
+    background-color: white;
+    color:#257eaf;
+    font-family: sans-serif;
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+}
+
+#threeImages > div {
+  margin: 0;
+}
+#girl1 {
+  position: absolute;
+    margin-left: -700px; 
+  z-index: 2;
+  margin-top: 50px;
+  object-fit: cover;
+}
+#boy {
+  position: absolute;
+  z-index: 1;
+  margin-left: -515px;
+  object-fit: cover;
+  padding: 0;
+}
+#girl2 {
+  position: absolute;
+  margin-left: -270px;
+  margin-top: 50px;
+  object-fit: cover;
+}
+.text-sec1 {
+  position: absolute;
+  color: #ffffff;
+  font-family: serif;
+  font-size: 106.283px;
+  margin: 190px 30px;
+  display: inline;
+}
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.about_container {
+    display: flex;
+    align-items: center;
+}
+.about_img img {
+    width: 450px; /* Set a fixed width */
+    height: 450px; /* Set a fixed height */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    border-radius: 50%;
+    margin-right: 20px;
+    padding-left: 20px; /* Adjust the margin as needed */
+}
+
+
+.about_content {
+    text-align: left;
+}
+
+.about_heading h1 {
+    color: #0077cc;
+    font-weight: 900px;
+    font-size: 60px; /* Change to your desired color code */
+}
+.about_text p {
+    font-size: 30px;
+    margin-top: 0;
+    text-align: left;
+    font-weight: 300;
+}
+#academics{
+    margin-left:10% ;
+    margin-right:10% ;
+}
